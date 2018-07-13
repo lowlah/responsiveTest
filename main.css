@@ -17,7 +17,6 @@ h1, h2, h3, h4, h5 {
 
 header, nav, footer, section, article, div {
   box-sizing: border-box;
-  max-width:100%;
 }
 
 ul {
@@ -51,6 +50,7 @@ ul {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   min-height: 56px;
   transition: min-height 0.3s;
+  max-width: 100%;
 }
 
 .header__inner {
